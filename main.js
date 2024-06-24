@@ -100,11 +100,11 @@ const CountryNews = () => {
   return (
     <div>
       <select value={country} onChange={handleCountryChange}>
-        <option>USA</option>
-        <option>UK</option>
-        <option>India</option>
-        <option>New Zealand</option>
-        <option>China</option>
+        <option value="us">USA</option>
+        <option value="uk">UK</option>
+        <option value="in">India</option>
+        <option value="nz">New Zealand</option>
+        <option value="ch">China</option>
       </select>
       <div className="articles">
         {articles.map((article, index) => (
